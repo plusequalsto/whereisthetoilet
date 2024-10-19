@@ -1,3 +1,5 @@
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 class AppConstants {
-  static const String mapsApiKey = 'AIzaSyDVQ5z-HtaqMf7JqilczXq8jWrHCfRvCtQ';
+  static String mapsApiKey = dotenv.env['MAPS_API_KEY']!;
 }
