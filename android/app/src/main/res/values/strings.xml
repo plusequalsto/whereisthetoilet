@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Where Is The Toilet</string>
+    <string name="maps_api_key">AIzaSyDVQ5z-HtaqMf7JqilczXq8jWrHCfRvCtQ</string>
+    <string name="ad_application_id">ca-app-pub-5469034833017609~9722969086</string>
+</resources>

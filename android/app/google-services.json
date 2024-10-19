@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388603724715",
+    "project_id": "whereisthetoilet-6656d",
+    "storage_bucket": "whereisthetoilet-6656d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388603724715:android:d0bd58454f3d1bb69508ee",
+        "android_client_info": {
+          "package_name": "com.plusequalsto.whereisthetoilet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX2GXUzqrVY-n1bJxuuxLSu8J5iYosJXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
