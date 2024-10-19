@@ -184,7 +184,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     // Construct the URL with location and radius
     String url =
-        'https://maps.googleapis.com/maps/api/place/textsearch/json?query=$input&location=$lat,$lng&radius=200&key=${AppConstants.mapsApiKey}';
+        'https://maps.googleapis.com/maps/api/place/textsearch/json?query=$input&location=$lat,$lng&radius=10000&key=${AppConstants.mapsApiKey}';
 
     try {
       var response = await http.get(Uri.parse(url));
