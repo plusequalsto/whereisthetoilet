@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:whereisthetoilet/constants/app_colors.dart';
 import 'package:whereisthetoilet/constants/app_constants.dart';
+import 'package:whereisthetoilet/main.dart';
 import 'package:whereisthetoilet/models/user_models.dart';
 import 'package:whereisthetoilet/screens/home_screen/widgets/custom_search_bar.dart';
 import 'package:whereisthetoilet/services/permission_services.dart';
@@ -189,6 +190,7 @@ class _HomeScreenState extends State<HomeScreen> {
     try {
       var response = await http.get(Uri.parse(url));
       var json = jsonDecode(response.body);
+      logger.d(json);
 
       if (json['status'] == 'OK' && json['results'].isNotEmpty) {
         // Clear previous markers
